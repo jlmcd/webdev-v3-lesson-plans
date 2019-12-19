@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Roboto&display=swap');
+
+body, html {
+  background: #f6f6f6;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.logo {
+  font-size: 3rem;
+  font-family: 'Damion', cursive;
+  cursor: pointer;
+}
+
+.nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.nav a:hover {
+  color: #6e9e6f
+}
+
+.figure {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFqRyHw6PY2RmpSj6Biboy8pevxhHUlUG79iBjAdLm7FieUzoGw') center;
+  height: 80vh;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+.figure h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.figure h1 span {
+  font-family: 'Damion', cursive;
+  font-size: 3rem;
+}
+.figure h2 {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.figure button {
+  background: none;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  transition: .3s;
+}
+.figure button:hover {
+  border-color: #FF0000;
+  color: #FF0000;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.blockquote {
+  margin-left: 3rem;
+}
+
+.aside {
+  float: right;
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+.aside li {
+  list-style: none;
+  margin: .5rem 0;
+}
+
+.article, .aside {
+  margin-top: 5rem;
+}
